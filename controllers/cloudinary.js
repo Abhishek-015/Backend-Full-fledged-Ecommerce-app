@@ -3,9 +3,9 @@ const cloudinary = require("cloudinary");
 //config---->sending to cloudinary
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name: "dugbfqro4",
+  api_key: "116221385469849",
+  api_secret: "y2A88Bo_siPv0MLYhLfwisintSU",
 });
 
 //req.body.image---->used when we are not using forms to upload images.
