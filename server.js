@@ -11,7 +11,7 @@ const app = express();
 
 //database
 mongoose
-  .connect(process.env.DATABASE,{ useNewUrlParser: true })
+  .connect('mongodb+srv://abhishek:7455895429rv@nodejs.1kvvb.mongodb.net/ecommerce?retryWrites=true&w=majority',{ useNewUrlParser: true })
   .then(() => console.log("DB CONNECTED"))
   .catch((error) => console.log("DB CONNECTON ERROR", error.message));
 
